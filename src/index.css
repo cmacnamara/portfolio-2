@@ -1,11 +1,36 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', sans-serif;
 
-  color-scheme: light dark;
+  --background-color: #1C3144;
+  --navBar-color: #162837;
+  --wordCard-color: #13c6cf;
+  --articleCard-color: #111f2b;
+  --commentCard-color: #becede;
+  --sideBar-color: #162837;
+
+  --button-color: #D8315B;
+  --button-border-color: #c62d53;
+
+  --page-margin: 100px;
+  --border-radius: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+
+  margin: 0;
+  min-height: 100vh;
+
+  background-color: var(--background-color);
+
+  font-family: var(--font-family);
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,56 +39,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.uniButton {
+  background: var(--button-color);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--button-border-color);
+
+  box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.5);
+  
+  color: white;
+  font-weight: 800;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.uniButton:active {
+  transform: scale(0.95);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
