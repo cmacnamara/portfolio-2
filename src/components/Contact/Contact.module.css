@@ -1,0 +1,9 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  border: solid white 1px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}

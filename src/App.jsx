@@ -1,6 +1,3 @@
-// npm modules
-import { useState } from 'react'
-
 // css
 import './App.css'
 
@@ -16,11 +13,13 @@ function App() {
   return (
     <>
       <NavBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className='main-container'>
+        <Hero />
+        <Projects />
+        <Skills />
+        <About />
+        <Contact />
+      </div>
     </>
   )
 }

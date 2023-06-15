@@ -1,0 +1,11 @@
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--articleCard-color);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}

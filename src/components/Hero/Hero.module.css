@@ -1,0 +1,19 @@
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 95%;
+  border: solid white 1px;
+  border-radius: 5px;
+  margin: 25px;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 200px;
+  margin: 25px;
+}
+
+.heroDescription {
+  margin: 10px;
+}
