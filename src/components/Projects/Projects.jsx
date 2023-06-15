@@ -1,3 +1,9 @@
+// assets
+import bugReflectorSS from '../../assets/bugReflector-screenshot2.png'
+import nordleSS from '../../assets/nordle-screenshot2.png'
+import newsLingoSS from '../../assets/newsLingo-screenshot.png'
+import surveyBrainSS from '../../assets/surveyBrain-screenshot.png'
+
 // css
 import styles from './Projects.module.css'
 
@@ -12,31 +18,31 @@ const Projects = () => {
       tech: [],
       githubURL: '',
       liveURL: '',
-      screenshot: {} 
+      screenshot: `${surveyBrainSS}` 
     },
     {
       title: 'NewsLingo',
-      description: '',
+      description: 'A language-learning app that provides daily news articles, word-to-word translations, and a personal dictionary',
       tech: [],
-      githubURL: '',
-      liveURL: '',
-      screenshot: {} 
+      githubURL: 'https://github.com/cmacnamara/newsLingo-front-end',
+      liveURL: 'https://news-lingo.netlify.app/',
+      screenshot: `${newsLingoSS}` 
     },
     {
       title: 'Bug Reflector',
-      description: '',
+      description: 'A website for developers to reflect upon and share their skill growth through the lens of bug fixes',
       tech: [],
-      githubURL: '',
-      liveURL: '',
-      screenshot: {} 
+      githubURL: 'https://github.com/cmacnamara/bug-reflector',
+      liveURL: 'https://bug-reflector.fly.dev/',
+      screenshot: `${bugReflectorSS}` 
     },
     {
       title: 'Nordle',
-      description: '',
+      description: 'A Norse-themed Wordle-style game that challenges users to guess 10+ consecutive words and stores progress locally',
       tech: [],
-      githubURL: '',
-      liveURL: '',
-      screenshot: {} 
+      githubURL: 'https://github.com/cmacnamara/wordle-js',
+      liveURL: 'https://nordle-game.netlify.app/',
+      screenshot: `${nordleSS}` 
     },
   ]
   

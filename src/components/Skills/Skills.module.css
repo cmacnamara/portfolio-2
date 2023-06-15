@@ -1,7 +1,6 @@
 .skillsContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
   width: 95%;
   max-width: 965px;
@@ -12,8 +11,20 @@
 
 .skillBadges {
   display: flex;
+  justify-content: center;
   width: 100%;
   gap: 10px;
   padding: 15px;
   flex-wrap: wrap;
+}
+
+.badge {
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.badge:hover{
+  cursor: pointer;
+  border-color: #26bf47;
+  box-shadow: 0 0 10px #26bf47;
 }
