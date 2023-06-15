@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 95%;
+  max-width: 965px;
   border: solid white 1px;
   border-radius: 5px;
   margin: 25px;
