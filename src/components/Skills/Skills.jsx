@@ -3,7 +3,7 @@ import styles from './Skills.module.css'
 
 const Skills = () => {
   return ( 
-    <div className={styles.skillsContainer}>
+    <div className={styles.skillsContainer} id="skills">
       <h1>Skills</h1>
       <div className={styles.skillBadges}>
         <img className={styles.badge} src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />

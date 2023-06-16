@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
   console.log("Props", props);
   return ( 
     <div className={styles.projectCard}>
-      
+      <h2 className={styles.projectTitle}>{props.project.title}</h2>
       <img 
         src={props.project.screenshot} 
         alt={`${props.project.title} Screenshot`} 

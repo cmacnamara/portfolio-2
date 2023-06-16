@@ -8,10 +8,27 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  background-color: var(--navBar-color);
+  background:rgba(115, 115, 115, 0.3);
+  backdrop-filter: blur(6px);
 }
 
 .btnGroup {
   display: flex;
   gap: 20px;
+  text-decoration: none;
+  color: hsl(45,5%,90%);
+}
+
+.btnGroup a {
+  text-decoration: none;
+  color: hsl(45,5%,90%);
+}
+
+.navLink {
+  transition: 0.3s;
+}
+
+.navLink:hover {
+  cursor: pointer;
+  color: #EAB307;
 }

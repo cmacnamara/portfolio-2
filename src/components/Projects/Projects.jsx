@@ -47,7 +47,7 @@ const Projects = () => {
   ]
   
   return ( 
-    <div className={styles.projectsContainer}>
+    <div className={styles.projectsContainer} id="projects">
       <h1>Projects</h1>
       <div className={styles.projectList}>
         {projects.map((project,idx) => (

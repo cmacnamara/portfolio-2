@@ -4,7 +4,7 @@
   align-items: center;  
   justify-content: space-between;
   width: 100%;
-  background-color: var(--articleCard-color);
+  background-color: transparent;
   border-radius: 5px;
   text-decoration: none;
   color: white;
@@ -50,4 +50,8 @@
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 8px;
+}
+
+.projectTitle {
+  margin: 0;
 }

@@ -9,7 +9,7 @@ import styles from './Contact.module.css'
 
 const Contact = () => {
   return ( 
-    <div className={styles.contactContainer}>
+    <div className={styles.contactContainer} id="contact">
       <h1>Contact</h1>
       <h3>Let's get in touch.</h3>
       <div className={styles.contactLinks}>

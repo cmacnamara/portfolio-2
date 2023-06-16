@@ -1,10 +1,8 @@
 :root {
   --font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', sans-serif;
 
-  --background-color: hsl(217, 28%, 18%);
-  --navBar-color: hsl(217, 28%, 30%);;
-  --wordCard-color: #13c6cf;
-  --articleCard-color: #111f2b;
+  --background-color: hsl(45,50%,4%);
+  --navBar-color: hsl(45,50%,4%);
   --commentCard-color: #becede;
   --sideBar-color: #162837;
 
