@@ -18,7 +18,7 @@ const About = () => {
   return ( 
     <div className={styles.aboutContainer} id="about-me">
       <h1>About Me</h1>
-      <p>I am a Fullstack Software Engineer living the in Boston area who loves working on creative and technically challenging projects. My passion for self-expression, empathetic understanding, and continual growth and learning have led me to wear many hats over the years, from Computer Science student to musician/audio engineer to high school Spanish and Computer Science Teacher, and many more! Take a look at the timeline below to get a better sense of my journey so far!</p>
+      <p className={styles.aboutMeDescription}>I am a Fullstack Software Engineer living the in Boston area who loves working on creative and technically challenging projects. My passion for self-expression, empathetic understanding, and continual growth and learning have led me to wear many hats over the years, from Computer Science student to musician/audio engineer to high school Spanish and Computer Science Teacher, and many more! Take a look at the timeline below to get a better sense of my journey so far!</p>
 
       <Timeline position="alternate">
       <TimelineItem>

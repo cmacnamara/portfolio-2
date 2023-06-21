@@ -12,7 +12,15 @@ const ProjectCard = (props) => {
         className={styles.cardImage}
       />
       <div className={styles.overlay}>
-        <p>{props.project.description}</p>
+        <h2 className={styles.projectTitle}>{props.project.title}</h2>
+        <p className={styles.description}>{props.project.description}</p>
+        <p className={styles.techList}>Technologies: 
+          {
+            props.project.tech.map((technology,idx) => (
+              <span key={idx}> {technology} | </span>
+            ))
+          }
+        </p>
         <div className={styles.projectLinks}>
           <a className={styles.projectLink} href={props.project.githubURL} target="_blank" rel="noreferrer">GitHub</a>
           <a className={styles.projectLink} href={props.project.liveURL} target="_blank" rel="noreferrer">Live Project</a>
