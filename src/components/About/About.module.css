@@ -8,4 +8,7 @@
 
 .aboutMeDescription {
   max-width: 1178px;
+  padding: 20px;
+  text-align: center;
+  line-height: 25px;
 }

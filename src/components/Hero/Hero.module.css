@@ -3,28 +3,57 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 640px;
+  height: 550px;
   background-color: hsl(45,50%,4%);
   color: hsl(45,5%,90%);
-  margin: 25px;
   margin-top: 70px;
+  flex-wrap: wrap;
 }
 
 .heroInternalContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 640px; */
-  /* height: 80%; */
+  /* flex-wrap: wrap; */
 }
 
 .headshot {
   border-radius: 50%;
-  height: 50vh;
+  height: 400px;
   max-width: 100%;
   margin: 25px;
 }
 
 .heroDescription {
   margin: 10px;
+}
+
+.heroDescription h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+.heroDescription h2 {
+  font-size: 40px;
+  margin: 10px;
+}
+
+.heroDescription p {
+  width: 90%;
+}
+
+@media only screen and (max-width: 450px) {
+  .headshot {
+    height: 250px;
+    align-self: center;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .heroInternalContainer {
+    flex-wrap: wrap;
+  }
+  .heroContainer {
+    height: 100%;
+  }
 }

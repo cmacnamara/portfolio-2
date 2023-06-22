@@ -13,12 +13,13 @@ import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 import SchoolIcon from '@mui/icons-material/School';
 import PublicIcon from '@mui/icons-material/Public';
 import Typography from '@mui/material/Typography';
+import { Fade } from 'react-awesome-reveal';
 
 const About = () => {
   return ( 
     <div className={styles.aboutContainer} id="about-me">
-      <h1>About Me</h1>
-      <p className={styles.aboutMeDescription}>I am a Fullstack Software Engineer living the in Boston area who loves working on creative and technically challenging projects. My passion for self-expression, empathetic understanding, and continual growth and learning have led me to wear many hats over the years, from Computer Science student to musician/audio engineer to high school Spanish and Computer Science Teacher, and many more! Take a look at the timeline below to get a better sense of my journey so far!</p>
+      <Fade><h1>About Me</h1></Fade>
+      <Fade><p className={styles.aboutMeDescription}>I am a Fullstack Software Engineer living the in Boston area who loves working on creative and technically challenging projects. My passions for self-expression, empathetic understanding, and continual growth and learning have led me to wear many hats over the years, from Computer Science student to musician/audio engineer to high school Spanish and Computer Science Teacher, and many more! Take a look at the timeline below to get a better sense of my journey so far!</p></Fade>
 
       <Timeline position="alternate">
       <TimelineItem>
@@ -26,7 +27,7 @@ const About = () => {
           sx={{ m: 'auto 0' }}
           align="right"
           variant="body2"
-          color="text.secondary"
+          color="rgba(255, 255, 255, 0.87)"
         >
           May 2013
         </TimelineOppositeContent>
@@ -48,7 +49,7 @@ const About = () => {
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
-          color="text.secondary"
+          color="rgba(255, 255, 255, 0.87)"
         >
           April 2015
         </TimelineOppositeContent>
@@ -70,7 +71,7 @@ const About = () => {
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
-          color="text.secondary"
+          color="rgba(255, 255, 255, 0.87)"
         >
           July 2015 - July 2017
         </TimelineOppositeContent>
@@ -92,7 +93,7 @@ const About = () => {
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
-          color="text.secondary"
+          color="rgba(255, 255, 255, 0.87)"
         >
           August 2017 - June 2022
         </TimelineOppositeContent>
@@ -114,7 +115,7 @@ const About = () => {
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
           variant="body2"
-          color="text.secondary"
+          color="rgba(255, 255, 255, 0.87)"
         >
           June 2023
         </TimelineOppositeContent>

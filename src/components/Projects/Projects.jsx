@@ -10,6 +10,9 @@ import styles from './Projects.module.css'
 // components
 import ProjectCard from '../ProjectCard/ProjectCard'
 
+// npm packages
+import { Fade } from 'react-awesome-reveal';
+
 const Projects = () => {
   const projects = [
     {
@@ -48,15 +51,17 @@ const Projects = () => {
   
   return ( 
     <div className={styles.projectsContainer} id="projects">
+      <Fade>
       <h1>Projects</h1>
       <div className={styles.projectList}>
         {projects.map((project,idx) => (
           <ProjectCard 
-            key={idx}
-            project={project}
+          key={idx}
+          project={project}
           />
-        ))}
+          ))}
       </div>
+      </Fade>
     </div>
   );
 }

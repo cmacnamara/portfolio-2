@@ -4,9 +4,13 @@ import headshot from '../../assets/headshot.jpeg'
 // css
 import styles from './Hero.module.css'
 
+// npm packages
+import { Fade } from 'react-awesome-reveal';
+
 const Hero = () => {
   return ( 
     <section className={styles.heroContainer}>
+      <Fade>
       <div className={styles.heroInternalContainer}>
         <img 
           src={headshot} 
@@ -19,6 +23,7 @@ const Hero = () => {
           <p>Hi there! My name is Chris. Thanks for checking out my portfolio. Keep scrolling to see some of my recent projects and to learn about me.</p>
         </div>
       </div>
+      </Fade>
     </section>
   );
 }
