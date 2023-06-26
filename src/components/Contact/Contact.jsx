@@ -20,7 +20,7 @@ const Contact = () => {
           <a className={styles.linkAndImage} href="mailto:cpmacnamara@gmail.com"><img src={emailLogo} alt="Email Logo" />cpmacnamara@gmail.com</a>
           <a className={styles.linkAndImage} href="https://www.linkedin.com/in/christopher-macnamara/"><img src={linkedinLogo} alt="Linkedin Logo" />christopher-macnamara</a>
           <a className={styles.linkAndImage} href="https://github.com/cmacnamara"><img src={githubLogo} alt="Github logo" />cmacnamara</a>
-          <a className={styles.linkAndImage} href='../../../public/MacNamara_resume.pdf' download='Chris-MacNamara-Resume.pdf'><img src={resumeLogo} alt="Resume Logo" />Download Resume</a>
+          <a className={styles.linkAndImage} href='/public/MacNamara_resume.pdf' download='Chris-MacNamara-Resume.pdf'><img src={resumeLogo} alt="Resume Logo" />Download Resume</a>
         </div>
       </Fade>
     </div>
