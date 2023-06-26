@@ -18,7 +18,7 @@ const Hero = () => {
           className={styles.headshot} 
         />
         <div className={styles.heroDescription}>
-          <h1>Chris MacNamara</h1>
+          <h1>Chris <span>MacNamara</span></h1>
           <h2>Full Stack Software Engineer</h2>
           <p>Hi there! My name is Chris. Thanks for checking out my portfolio. Keep scrolling to see some of my recent projects and to learn about me.</p>
         </div>

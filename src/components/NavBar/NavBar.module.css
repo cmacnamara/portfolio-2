@@ -32,3 +32,13 @@
   cursor: pointer;
   color: #EAB307;
 }
+
+.name {
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.name span {
+  color: #EAB307;
+}

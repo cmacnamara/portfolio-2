@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   return ( 
     <nav className={styles.navContainer}>
-      <div>Chris MacNamara</div>
+      <div className={styles.name}>Chris <span>MacNamara</span></div>
       <div className={styles.btnGroup}>
         <Link 
           activeClass='active'

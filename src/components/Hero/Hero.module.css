@@ -42,6 +42,10 @@
   width: 90%;
 }
 
+.heroDescription span {
+  color: #EAB307;
+}
+
 @media only screen and (max-width: 450px) {
   .headshot {
     height: 250px;

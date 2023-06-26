@@ -21,6 +21,7 @@ const About = () => {
       <Fade><h1>About Me</h1></Fade>
       <Fade><p className={styles.aboutMeDescription}>I am a Fullstack Software Engineer living the in Boston area who loves working on creative and technically challenging projects. My passions for self-expression, empathetic understanding, and continual growth and learning have led me to wear many hats over the years, from Computer Science student to musician/audio engineer to high school Spanish and Computer Science Teacher, and many more! Take a look at the timeline below to get a better sense of my journey so far!</p></Fade>
 
+      <Fade>
       <Timeline position="alternate">
       <TimelineItem>
         <TimelineOppositeContent
@@ -134,6 +135,7 @@ const About = () => {
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+    </Fade>
     </div>
   );
 }
