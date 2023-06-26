@@ -33,7 +33,7 @@ const About = () => {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot>
+          <TimelineDot color="primary">
             <SchoolIcon />
           </TimelineDot>
           <TimelineConnector />
@@ -77,10 +77,10 @@ const About = () => {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="primary" variant="outlined">
+          <TimelineDot color="secondary">
             <PublicIcon />
           </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography variant="h6" component="span">
@@ -98,7 +98,7 @@ const About = () => {
           August 2017 - June 2022
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+          <TimelineConnector />
           <TimelineDot color="secondary">
             <PublicIcon />
           </TimelineDot>
@@ -120,8 +120,8 @@ const About = () => {
           June 2023
         </TimelineOppositeContent>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
-          <TimelineDot color="secondary">
+          <TimelineConnector />
+          <TimelineDot>
             <LaptopMacIcon />
           </TimelineDot>
           <TimelineConnector />

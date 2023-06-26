@@ -16,8 +16,17 @@
 }
 
 .contactLinks a {
+  color: rgba(255, 255, 255, 0.87);
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   text-decoration: none;
+}
+
+.linkAndImage {
+  padding: 4px;
+}
+
+.linkAndImage:hover {
+  color: #EAB307;
 }

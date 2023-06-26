@@ -45,13 +45,19 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 }
 
 .projectLink {
-  background-color: antiquewhite;
+  background-color: #EAB307;
+  color: hsl(45,50%,4%);
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 8px;
+}
+
+.projectLink:hover {
+  background-color: #ad8201;
 }
 
 .projectTitle {
