@@ -2,7 +2,6 @@
 import styles from './ProjectCard.module.css'
 
 const ProjectCard = (props) => {
-  console.log("Props", props);
   return ( 
     <div className={styles.projectCard}>
       <h2 className={styles.projectTitle}>{props.project.title}</h2>
