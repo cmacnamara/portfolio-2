@@ -37,6 +37,7 @@ const Contact = () => {
           <a className={styles.linkAndImage} href="https://www.linkedin.com/in/christopher-macnamara/"><img src={linkedinLogo} alt="Linkedin Logo" />christopher-macnamara</a>
           <a className={styles.linkAndImage} href="https://github.com/cmacnamara"><img src={githubLogo} alt="Github logo" />cmacnamara</a>
           <a className={styles.linkAndImage} href='' onClick={onButtonClick}><img src={resumeLogo} alt="Resume Logo" />Download Resume</a>
+          <button onClick={onButtonClick}>Download Resume</button>
         </div>
       </Fade>
     </div>
