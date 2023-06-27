@@ -23,6 +23,7 @@ const ProjectCard = (props) => {
         <div className={styles.projectLinks}>
           <a className={styles.projectLink} href={props.project.githubURL} target="_blank" rel="noreferrer">GitHub</a>
           <a className={styles.projectLink} href={props.project.liveURL} target="_blank" rel="noreferrer">Live Project</a>
+          <a className={styles.projectLink} href={props.project.demoURL} target="_blank" rel="noreferrer">Demo Video</a>
         </div>
       </div>
     </div>

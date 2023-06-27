@@ -21,7 +21,8 @@ const Projects = () => {
       tech: ['TypeScript', 'React', 'Node.js', 'Express.js', 'PostgreSQL', 'Sequelize', 'JWT'],
       githubURL: 'https://github.com/cmacnamara/survey-brain-front-end',
       liveURL: 'https://surveybrain.netlify.app/',
-      screenshot: `${surveyBrainSS}` 
+      screenshot: `${surveyBrainSS}`,
+      demoURL: 'https://www.youtube.com/watch?v=vqgVcvseFQQ'  
     },
     {
       title: 'NewsLingo',
@@ -29,7 +30,8 @@ const Projects = () => {
       tech: ['React', 'JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'CSS', 'JWT'],
       githubURL: 'https://github.com/cmacnamara/newsLingo-front-end',
       liveURL: 'https://news-lingo.netlify.app/',
-      screenshot: `${newsLingoSS}` 
+      screenshot: `${newsLingoSS}`,
+      demoURL: 'https://www.youtube.com/watch?v=p_MucXvQsms' 
     },
     {
       title: 'Bug Reflector',
@@ -37,7 +39,8 @@ const Projects = () => {
       tech: ['JavaScript', 'Node.js', 'Express.js', 'MongoDB', 'EJS', 'CSS'],
       githubURL: 'https://github.com/cmacnamara/bug-reflector',
       liveURL: 'https://bug-reflector.fly.dev/',
-      screenshot: `${bugReflectorSS}` 
+      screenshot: `${bugReflectorSS}`,
+      demoURL: 'https://www.youtube.com/watch?v=NCr1gMYNxVk' 
     },
     {
       title: 'Nordle',
@@ -45,7 +48,8 @@ const Projects = () => {
       tech: ['JavaScript', 'HTML', 'CSS', 'Git'],
       githubURL: 'https://github.com/cmacnamara/wordle-js',
       liveURL: 'https://nordle-game.netlify.app/',
-      screenshot: `${nordleSS}` 
+      screenshot: `${nordleSS}`,
+      demoURL: 'https://www.youtube.com/watch?v=c0D9t-wCAsg' 
     },
   ]
   
