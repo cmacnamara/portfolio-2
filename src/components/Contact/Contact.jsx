@@ -11,6 +11,22 @@ import styles from './Contact.module.css'
 import { Fade } from 'react-awesome-reveal';
 
 const Contact = () => {
+
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('MacNamara_resume.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'MacNamara_resume.pdf';
+            alink.click();
+        })
+    })
+  }
+
   return (  
     <div className={styles.contactContainer} id="contact">
       <Fade>
@@ -20,7 +36,7 @@ const Contact = () => {
           <a className={styles.linkAndImage} href="mailto:cpmacnamara@gmail.com"><img src={emailLogo} alt="Email Logo" />cpmacnamara@gmail.com</a>
           <a className={styles.linkAndImage} href="https://www.linkedin.com/in/christopher-macnamara/"><img src={linkedinLogo} alt="Linkedin Logo" />christopher-macnamara</a>
           <a className={styles.linkAndImage} href="https://github.com/cmacnamara"><img src={githubLogo} alt="Github logo" />cmacnamara</a>
-          <a className={styles.linkAndImage} href='/public/MacNamara_resume.pdf' download='Chris-MacNamara-Resume.pdf'><img src={resumeLogo} alt="Resume Logo" />Download Resume</a>
+          <a className={styles.linkAndImage} href='' onClick={onButtonClick}><img src={resumeLogo} alt="Resume Logo" />Download Resume</a>
         </div>
       </Fade>
     </div>
